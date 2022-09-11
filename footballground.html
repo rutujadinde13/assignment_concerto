@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    div.outer {
+        margin: auto;
+        margin-top: 30px;
+        padding: 0;
+         width: 800px;
+         height: 400px;
+         top: 50%;
+         bottom: 50%;
+         background: rgb(39, 102, 25);
+         position: relative;
+
+       }
+
+       div.crimsonborder{
+         position: absolute;
+         width: 90%;
+         height: 90%;
+        border: 4px solid crimson;
+         margin: 20px 40px 40px 40px;
+       }
+        div.tomatoborder{
+         position: absolute;
+         width: 89.2%;
+         height: 88%;
+         border: 4px solid tomato;
+         margin: 24px 41px 41px 43px;
+         
+       }
+       div.yellowborder{
+        position: absolute;
+         width: 88.2%;
+         height: 86.3%;
+         border: 4px solid yellow;
+         margin: 28px 45px 42px 47px;
+         
+       }
+       div.greenborder{
+        position: absolute;
+         width: 87.5%;
+         height: 85%;
+         border: 4px solid green;
+         margin: 31px 41px 44px 50px;
+         
+       }
+       div.slateblueborder{
+        position: absolute;
+         width: 86.8%;
+         height: 83.2%;
+         border: 4px solid slateblue;
+         margin: 34px 42px 44px 52px;
+         
+       }
+       div.whiteborder{
+        position: absolute;
+         width: 85%;
+         height: 80.3%;
+         border: 6px solid white;
+         margin: 38px 42px 44px 57px;
+         
+       }
+       div.middleline {
+            border-style: none solid none none;
+            margin: 0px;
+            padding: 161px;
+            right: 50%;
+            position: absolute;
+            border-color: white;
+            border-width: 6px;
+        }
+        div.leftouterrectangle{
+         position: absolute;
+         width: 10%;
+         height: 40%;
+         border: 6px solid white;
+         margin: 100px 0px 0px -5px;
+        }
+        div.leftinnerrectangle{
+         position: absolute;
+         width: 30%;
+         height: 30%;
+         border: 6px solid white;
+         margin: 40px 0px 0px -5px;
+        }
+        div.leftcircle{
+         position: absolute;
+         border: 6px solid white;
+         border-radius: 50%;
+         width: 3px;
+         height: 3px;
+         margin: 58px 0px 50px 40px;
+         background-color: white;
+        }
+        div.rightouterrectangle{
+         position: absolute;
+         width: 10%;
+         height: 40%;
+         border: 6px solid white;
+         margin: 90px 0px 0px 605px;
+        }
+        div.rightinnerrectangle{
+          position: absolute;
+         width: 30%;
+         height: 30%;
+         border: 6px solid white;
+         margin: 40px 0px 0px 43px;
+        }
+        div.rightcircle{
+         position: absolute;
+         border: 6px solid white;
+         border-radius: 50%;
+         width: 3px;
+         height: 3px;
+         margin: 58px 0px 50px 10px;
+         background-color: white;
+        }
+
+        div.midcircle {
+         position: absolute;
+         border: 6px solid white;
+         border-radius: 50%;
+         width: 70px;
+         height: 70px;
+         margin: 110px 0px 40px 295px;
+        }
+        div.innercircle {
+         position: absolute;
+         border: 6px solid white;
+         border-radius: 50%;
+         width: 10px;
+         height: 10px;
+         margin: 25px 0px 40px 25px;
+         background-color: white;
+        }
+        div.lefthalfcircle{
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border: 6px solid white;
+          border-radius: 50%;
+          border-bottom-color: transparent;
+          border-left-color: transparent;
+          transform: rotate(45deg);
+          margin: 35px 0px 0px -570px;
+        }
+        div.righthalfcircle{
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border: 6px solid white;
+          border-radius: 50%;
+          border-bottom-color: transparent;
+          border-left-color: transparent;
+          transform: rotate(-135deg);
+          margin: 35px 0px 0px -35px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="crimsonborder"></div>
+        <div class="tomatoborder"></div>
+        <div class="yellowborder"></div>
+        <div class="greenborder"></div>
+        <div class="slateblueborder"></div>
+        <div class="whiteborder">
+            <div class="middleline"></div>
+            <div class="midcircle">
+              <div class="innercircle"></div>
+            </div>
+            <div class="leftouterrectangle">
+              <div class="leftinnerrectangle"></div>
+              <div class="leftcircle"></div>
+            </div>
+            <div class="rightouterrectangle">
+              <div class="rightinnerrectangle"></div>
+              <div class="rightcircle"></div>
+            <div class="lefthalfcircle"></div>
+            <div class="righthalfcircle"></div>
+            </div>
+
+        </div>
+</body>
+</html>
